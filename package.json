@@ -1,0 +1,19 @@
+{
+  "name": "swe",
+  "version": "1.0.0",
+  "description": "prac for mocha",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc index.ts --module commonjs ",
+    "pretest": "tsc test/*Test.ts --module commonjs",
+    "test": "mocha "
+  },
+  "author": "samman",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.0.10"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
